@@ -1,0 +1,213 @@
+@media screen and (min-width: 768px) {
+  .your-music-container {
+    background-color: transparent;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .music-ul-container {
+    margin-left: 20px;
+    flex-shrink: 1;
+    margin-right: 20px;
+    width: 100%;
+  }
+  .music-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .time-container {
+    width: 100px;
+    margin-right: 20px;
+    display: row;
+    align-self: flex-start;
+  }
+
+  .song-name-container {
+    margin-left: 20px;
+    margin-left: 50px;
+    width: 100%;
+  }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+  .movie {
+    height: 150px;
+    width: 150px;
+  }
+
+  .song-name-heading {
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+
+  .music-name {
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+
+    color: #9b9b9b;
+  }
+
+  .time {
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+
+    color: #9b9b9b;
+  }
+  .music-play-img {
+    align-self: flex-end;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .bottom-container {
+    position: fixed-bottom;
+    width: 150%;
+    height: 150px;
+    background: #181818;
+
+    border: 1px solid #ffffff;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.play-img {
+  height: 80px;
+  width: 80px;
+  margin-left: 10px;
+}
+#audio {
+  width: 30px;
+  background-color: transparent;
+}
+@media screen and (max-width: 420px) {
+  .music-ul-container {
+    width: 96%;
+  }
+  .bottom-song-name-container {
+    margin-left: 10px;
+    width: 57%;
+  }
+  .bottom-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .your-music-container {
+    background-color: transparent;
+    width: 110%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-shrink: 1;
+    padding-left: 0px;
+  }
+
+  .music-ul-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .music-list {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 20px;
+    width: 10px;
+    width: 97%;
+  }
+  .time-container {
+    width: 20px;
+    margin-left: 20px;
+
+    align-self: flex-start;
+  }
+  .song-name-container {
+    margin-left: 10px;
+    width: 30%;
+  }
+  .movie {
+    height: 100px;
+    width: 100px;
+  }
+  .song-name-heading {
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  .music-name {
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    width: 300px;
+    color: #9b9b9b;
+  }
+  .time {
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+
+    color: #9b9b9b;
+  }
+  .play-list-heading {
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 8px;
+
+    color: #ffffff;
+  }
+  .bottom-song-name-container {
+    margin-left: 10px;
+  }
+  .music-play-img {
+    align-self: center;
+  }
+  .bottom-container {
+    position: fixed-bottom;
+
+    height: 150px;
+    background: #181818;
+
+    border: 1px solid #ffffff;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .music-play-img {
+    display: none;
+  }
+}

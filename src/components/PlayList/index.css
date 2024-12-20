@@ -1,0 +1,133 @@
+.my-fav-heading {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.track-para-p {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #64748b;
+}
+.pic1 {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .play-list-container {
+    padding-left: 10px;
+    background-color: transparent;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .music-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .play-list-heading {
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 100px;
+    color: #ffffff;
+  }
+  .playlist-2-container {
+    list-style-type: none;
+    margin-left: 25px;
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .play-list-heading {
+    width: 70%;
+    color: #ffffff;
+    font-size: 25px;
+  }
+
+  .music-container {
+    width: 50%;
+  }
+  .playlist-2-container {
+    list-style-type: none;
+    margin-left: 15px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  .track-para-p {
+    font-size: 10px;
+  }
+}
+.nav-link {
+  text-decoration: none;
+  color: #475569;
+}
+
+.movie-pic-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .movie-pic-container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 35px;
+  }
+  .play-list-container {
+    background-color: transparent;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .music-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .playlist-heading {
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 100px;
+    color: #ffffff;
+  }
+  .my-fav-heading {
+    font-size: 10px;
+  }
+  .pic1 {
+    height: 100px;
+    width: 100px;
+  }
+}

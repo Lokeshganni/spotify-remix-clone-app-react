@@ -1,0 +1,75 @@
+.on-new-releases-bg {
+  background-color: #181818;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.pic-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .on-new-releases-bg {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .editors-pic-img {
+    width: 160px;
+    height: 160px;
+  }
+  .pic-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .on-new-releases-bg {
+    width: 100%;
+  }
+  .editors-picks-paragraph1 {
+    font-size: 13px;
+    width: 100%;
+  }
+  .editors-picks-paragraph-p1 {
+    color: #9b9b9b;
+    font-size: 12px;
+  }
+  .songs-list-new-release-lg {
+    display: none;
+  }
+  .songs-list-new-release-sm {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-img-song-container {
+    background-color: #181818;
+  }
+}
+@media screen and (min-width: 768px) {
+  .editors-picks-paragraph-sm {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+  }
+
+  .editors-picks-paragraph16 {
+    margin-left: 40px;
+  }
+  .songs-list-new-release-lg {
+    display: flex;
+    flex-direction: column;
+  }
+  .songs-list-new-release-sm {
+    display: none;
+  }
+  .on-new-releases-bg {
+    padding-left: 40px;
+  }
+}

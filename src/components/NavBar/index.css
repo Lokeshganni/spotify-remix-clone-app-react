@@ -1,0 +1,196 @@
+.left-nav-bar {
+  background-color: #040306;
+}
+
+.ul-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-icons-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-left: 0px;
+  width: 100%;
+
+  padding-left: 0px;
+}
+.icon-name {
+  color: #9b9b9b;
+  font-family: 'Assistant';
+  font-size: 15px;
+  font-weight: 500;
+
+  align-items: center;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+}
+.active-item {
+  background-color: #181818;
+  border-left: 3px solid #1ed760;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .icon-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-sm {
+    display: none;
+  }
+
+  .nav-link-container {
+    display: none;
+  }
+
+  .nav-bar-lg {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: transparent;
+  }
+  .spotify-icon-style {
+    height: 80px;
+    width: 110px;
+    padding-left: 30px;
+  }
+  .link-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-and-bars-icon-container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-bar-lg {
+    display: none;
+  }
+  .nav-bar-sm {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    background-color: transparent;
+    flex-shrink: 1;
+  }
+  .spotify-icon-style {
+    height: 60px;
+    width: 90px;
+
+    margin-left: 10px;
+  }
+  .bars-icon {
+    color: gray;
+    height: 40px;
+    width: 40px;
+
+    margin-right: 5px;
+
+    align-self: flex-end;
+  }
+  .cross-icon {
+    color: gray;
+    height: 60px;
+    width: 60px;
+    padding-right: 5px;
+  }
+
+  .link-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    justify-content: space-between;
+  }
+  .btn-icon-container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .spotify-icon-container {
+    width: 30%;
+  }
+  .btn {
+    width: 100%;
+    background-color: transparent;
+    border-width: 0px;
+  }
+  .ul-small-icon-display {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-right: 10px;
+  }
+}
+
+.nav-link-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.link {
+  display: none;
+}
+
+.cross-icon {
+  display: none;
+}
+.display-none {
+  display: none;
+}
+.person-icon {
+  height: 50px;
+  width: 50px;
+  color: gray;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.spotify-log-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 420px) {
+  .person-icon {
+    height: 30px;
+    width: 30px;
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .bars-icon {
+    margin-bottom: 10px;
+  }
+}
